@@ -105,6 +105,8 @@ const LANG = {
     inv: "📦PCC Inventory系統(只用作Clockin/out)",
     cat: "📊餐飲王系統",
     gaia: "🕗 Gaia UI",
+    kee: "📊美團系統",
+    yin: "📊Yindii系統",
     form: "📄分店使用表格",
     storeTitle: "選擇分店代號查詢資料",
     address: "Address：",
@@ -122,6 +124,8 @@ const LANG = {
     inv: "📦 PCC Inventory System (Clock-in/out only)",
     cat: "📊Caterlord System",
     gaia: "🕗 Gaia UI",
+    kee: "📊Keeta System",
+    yin: "📊Yindii System",
     form: "📄 Store Forms",
     storeTitle: "Select Store Code",
     address: "Address:",
@@ -142,7 +146,8 @@ function setLang(lang) {
 
   document.getElementById("title").textContent = LANG[lang].title;
   document.getElementById("weatherTitle").textContent = LANG[lang].weatherTitle;
-
+ document.getElementById("kee").textContent = LANG[lang].kee;
+  document.getElementById("yin").textContent = LANG[lang].yin;
   document.getElementById("erp").textContent = LANG[lang].erp;
   document.getElementById("inv").textContent = LANG[lang].inv;
   document.getElementById("cat").textContent = LANG[lang].cat;
@@ -160,13 +165,13 @@ function setLang(lang) {
 </script>
 
 <!-- ⭐ 其他連結 -->
+<a id="form" href="https://drive.google.com/drive/folders/1yI6vbNPonKQSwrwM38v6Q1mRR5JkUyxJ?usp=drive_link" class="link-button">📄分店使用表格</a>
+<a id="yin" href="https://merchant.yindii.app/?ts#/auth" class="link-button">📊Yindii系統</a>
+<a id="kee" href="https://merchant.mykeeta.com/" class="link-button">📊美團系統</a>
+<a id="cat" href="https://hq.caterlord.com/" class="link-button">📊餐飲王系統</a>
 <a id="erp" href="https://hkprodapp.pacificcoffee.com/dist/#/" class="link-button">📦ERP系統</a>
 <a id="inv" href="https://pcc-inventory.web.app/auth" class="link-button">📦PCC Inventory系統(只用作Clockin/out)</a>
-<a id="cat" href="https://hq.caterlord.com/" class="link-button">📊餐飲王系統</a>
 <a id="gaia" href="https://portal.gaiaworkforce.com/#/setting" class="link-button" target="_blank">🕗 Gaia UI</a>
-<a id="gaia" href="https://hcc21.github.io/Pacific-coffee-Revenue/foodorder.html" class="link-button">🥯Foodorder Form</a>
-<a id="gaia" href="https://hcc21.github.io/Pacific-coffee-Revenue/Roster.html" class="link-button">🗓️單機版Roster</a>
-<a id="form" href="https://drive.google.com/drive/folders/1yI6vbNPonKQSwrwM38v6Q1mRR5JkUyxJ?usp=drive_link" class="link-button">📄分店使用表格</a>
 
 <script>
 /* ⭐ 時鐘 */
