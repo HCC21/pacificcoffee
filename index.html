@@ -108,6 +108,7 @@ const LANG = {
     kee: "📊美團系統",
     yin: "📊Yindii系統",
     form: "📄分店使用表格",
+    foo: "🍰食物柯打表格",
     storeTitle: "選擇分店代號查詢資料",
     address: "Address：",
     addressZh: "中文地址：",
@@ -127,6 +128,7 @@ const LANG = {
     kee: "📊Keeta System",
     yin: "📊Yindii System",
     form: "📄 Store Forms",
+    foo: "🍰 Foods Forms",
     storeTitle: "Select Store Code",
     address: "Address:",
     addressZh: "Chinese Address:",
@@ -153,6 +155,7 @@ function setLang(lang) {
   document.getElementById("cat").textContent = LANG[lang].cat;
   document.getElementById("gaia").textContent = LANG[lang].gaia;
   document.getElementById("form").textContent = LANG[lang].form;
+  document.getElementById("foo").textContent = LANG[lang].foo;
   document.getElementById("storeTitle").textContent = LANG[lang].storeTitle;
   document.getElementById("qrTitle").textContent = LANG[lang].qrTitle;
   document.getElementById("qrBtn").textContent = LANG[lang].qrBtn;
@@ -171,7 +174,9 @@ function setLang(lang) {
 <a id="cat" href="https://hq.caterlord.com/" class="link-button">📊餐飲王系統</a>
 <a id="erp" href="https://hkprodapp.pacificcoffee.com/dist/#/" class="link-button">📦ERP系統</a>
 <a id="inv" href="https://pcc-inventory.web.app/auth" class="link-button">📦PCC Inventory系統(只用作Clockin/out)</a>
-<a id="gaia" href="https://portal.gaiaworkforce.com/#/setting" class="link-button" target="_blank">🕗 Gaia UI</a>
+<a id="gaia" href="https://portal.gaiaworkforce.com/#/setting" class="link-button">🕗 Gaia UI</a>
+<a id="foo" href="https://hcc21.github.io/Pacific-coffee-Revenue/foodorder.html" class="link-button">🍰食物柯打表格</a>
+
 
 <script>
 /* ⭐ 時鐘 */
